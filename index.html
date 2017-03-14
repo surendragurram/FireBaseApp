@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Web App</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+  <div class="jumbotron">
+  <div class="container text-center">
+    <h1>ALL IN ONE SPORTS</h1>
+    <p>Get Your Faviorte Sport Happenings</p>
+  </div>
+</div>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Schedules</a></li>
+        <li><a href="#">Current Events</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Archives</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      <div class ="from-group">
+            <input id="texEmail" type="text" placeholder="Email" class="form-control">
+             <input id="texPassword" type="password" placeholder="Password" class="form-control">
+      </div>
+        <button type="button" id="btnSignIn" class="btn btn-default">Sign In</button>
+        <button type="button" id="btnSignOut" class="btn btn-default hide">Sign Out</button>
+        <a href="register.html" id="btnSignUp" class="btn btn-default">Sign Up</a>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-info" id ="primary">
+        <div class="panel-heading">Live Cricket Scores</div>
+        <div class="panel-body"><a href="http://www.cricbuzz.com"><img src="images/cricket.jpg" class="img-responsive" style="width:100%" width="80" alt="Image"></a></div>
+        <div class="panel-footer">Cricket</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-danger">
+        <div class="panel-heading">Live Football scores and News</div>
+        <div class="panel-body"><a href="http://www.football365.com/"><img src="images/football.jpg"  class="img-responsive" style="width:100%" width="80" alt="Image"><a></div>
+        <div class="panel-footer">Football</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-success">
+        <div class="panel-heading">Live Tennis Scores</div>
+        <div class="panel-body"><a href="http://www.espn.com/tennis/"><img src="images/tennis.jpg"  class="img-responsive" style="width:100%" width="80" alt="Image"></a></div>
+        <div class="panel-footer">Tennis</div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-warning">
+        <div class="panel-heading">Golf News</div>
+        <div class="panel-body"><a href="http://www.golfchannel.com/"><img src="images/golf.jpg"  class="img-responsive" style="width:100%" width="80" alt="Image"></a></div>
+        <div class="panel-footer">Golf</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Live Hockey Scores and News</div>
+        <div class="panel-body"><a href="http://www.nhl.com"><img src="images/hockey.jpeg" class="img-responsive" style="width:100%"  width="80" alt="Image"></a></div>
+        <div class="panel-footer">Hockey</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Live Sports News</div>
+        <div class="panel-body"><a href="http://www.skysports.com/"><img src="images/sports.jpg"  class="img-responsive" style="width:100%"  width="80" alt="Image"></a></div>
+        <div class="panel-footer">All Sports</div>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+<a href="chat.html" class ="chatBlock">Chat for Lives Scores</a>
+  <p>All Rights Reserved</p>
+  <form class="form-inline">Get Live Updates:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
+</footer> 
+    <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js"></script>
+	<script src="js/config.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/chatIndex.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
