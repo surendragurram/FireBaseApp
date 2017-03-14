@@ -1,0 +1,29 @@
+ .jumbotron>.container.text-center>h1{
+  font-size: 30px;
+ }
+ .navbar {
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */
+     .jumbotron {
+      margin-bottom: -31px;
+      margin-top: -60px;
+    }
+
+    .panel-body>a>img {
+      height: 218px;
+    }
+
+    a.chatBlock {
+        margin-left: 1024px;
+        font-weight: 800;
+        font-size: 16px;
+        color: #c7541b;
+      }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #93c2da;
+      padding: 25px;
+    }
